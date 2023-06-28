@@ -4,7 +4,7 @@ import { goToLoginPage } from "../routes/coordinator";
 
 export default function Header() {
     const navigate = useNavigate();
-
+ // teste dpoius
     const logout = () => {
         window.localStorage.removeItem(TOKEN_NAME);
         goToLoginPage(navigate);
